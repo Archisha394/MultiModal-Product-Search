@@ -6,6 +6,9 @@
 - Hybrid capability ready
 - FAISS for vector similarity
 - Frontend: Streamlit
+- 
+# Dataset
+dataset was taken from https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small/
 
 
 # Setup Environment
@@ -21,5 +24,6 @@ python build_index.py
 
 ## Run Streamlit
 python app.py
+
 
 
