@@ -5,8 +5,7 @@
 - Image search using OpenAI CLIP
 - Hybrid capability ready
 - FAISS for vector similarity
-- Backend: FastAPI
-- Frontend: Gradio or React
+- Frontend: Streamlit
 
 
 # Setup Environment
@@ -22,4 +21,5 @@ python build_index.py
 
 ## Run Streamlit
 python app.py
+
 
