@@ -11,7 +11,7 @@
 
 # Setup Environment
 python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+venv\Scripts\activate
 pip install -r requirements.txt
 
 # create embeddings
@@ -22,3 +22,4 @@ python build_index.py
 
 ## Run Streamlit
 python app.py
+
